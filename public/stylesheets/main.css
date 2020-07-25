@@ -10,7 +10,11 @@ body {
     background: linear-gradient(to right, rgb(114, 110, 110), rgb(87, 87, 97));
 }
 
-
+html, body, * {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
 
 .main-container {
     display: flex;
@@ -31,7 +35,7 @@ body {
 }
 
 .page-container {
-    padding: 0 0 100px 0;
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -43,4 +47,7 @@ body {
     margin-left: auto;
     border: 1px solid rgb(43, 42, 54);
 
+}
+
+.frame {
 }
