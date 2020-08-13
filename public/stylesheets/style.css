@@ -99,13 +99,11 @@ button:hover {
 
 h3 {
     font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-weight: 100;
+    text-align: center;
 }
 
 
-@media only screen and (max-width: 518px) {
+/* @media only screen and (max-width: 518px) {
     button {
         width: 45px;
         height: 45px;
@@ -142,4 +140,4 @@ h3 {
     h3 {
         font-size: 25px;
     }
-}
+} */
