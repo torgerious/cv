@@ -103,41 +103,41 @@ h3 {
 }
 
 
-/* @media only screen and (max-width: 518px) {
+@media only screen and (max-width: 518px) {
     button {
-        width: 45px;
-        height: 45px;
+        width: 67.5px;
+        height: 67.5px;
         font-size: 15px;
     }
 
     .result {
-        width: 180px;
-        height: 64px;
+        width: 270px;
+        height: 96px;
         font-size: 28px;
 
     }
 
     #equals {
         border-radius: 0 0 7px 0;
-        width: 90px;
+        width: 135px;
     }
 
     #null {
-        width: 45px;
+        width: 67.5px;
         border-radius: 0 0 0 7px;
     }
 
     #all-clear {
-        width: 90px;
+        width: 135px;
     }
 
     .history {
-        width: 170px;
-        height: 32px;
+        width: 255px;
+        height: 48px;
         font-size: 18px;
     }
 
     h3 {
         font-size: 25px;
     }
-} */
+}
