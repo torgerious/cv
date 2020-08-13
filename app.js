@@ -15,8 +15,11 @@ app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
 
 // hente routes
 const indexRouter = require('./routes/index')       // henter indexRoute fra index route (via modules.exports)
+const calculatorRouter = require('./routes/calculator')       // henter indexRoute fra index route (via modules.exports)
+
 
 // use routes
 app.use('/', indexRouter)           
+app.use('/calculator', calculatorRouter)           
 
 app.listen(process.env.PORT || 8080)

@@ -1,0 +1,145 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+ 
+}
+
+body {
+    
+    background: linear-gradient(to right, #9db0b9, #aa9dc2);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255)
+}
+
+.calculator {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: white;   
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    border-radius: 7px 7px 7px 7px;
+
+}
+
+.result {
+    text-align: end;
+    justify-content: flex-end;
+    font-size: 56px;
+    background: #383838;
+    color: white;
+    font-weight: 200;
+    overflow: hidden;
+    border-radius: 7px 7px 0 0;
+    padding:0 5px 0 5px;
+    margin: 0;
+    width: 360px;
+    height: 128px;
+}
+
+.history {
+    justify-content: flex-end;
+    margin: 0;
+    padding:0;
+    width: 340px;
+    height: 64px;
+    font-size: 38px;
+    color: rgb(221, 221, 221)
+}
+
+
+.keyboard {
+    opacity: 0.9;
+}
+
+button {
+    padding:0px;
+    margin:0px;
+    width: 90px;
+    height: 90px;
+    font-size: 26px;
+    background: rgb(250, 245, 245);
+    border: 0.5px solid rgb(188, 202, 212);
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(226, 221, 221);
+}
+
+.row {
+    display: table;
+}
+
+#null {
+    width: 90px;
+    border-radius: 0 0 0 7px;
+}
+
+#equals {
+    border-radius: 0 0 7px 0;
+    width: 180px;
+}
+
+
+#all-clear {
+    width: 180px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width: 518px) {
+    button {
+        width: 45px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .result {
+        width: 180px;
+        height: 64px;
+        font-size: 28px;
+
+    }
+
+    #equals {
+        border-radius: 0 0 7px 0;
+        width: 90px;
+    }
+
+    #null {
+        width: 45px;
+        border-radius: 0 0 0 7px;
+    }
+
+    #all-clear {
+        width: 90px;
+    }
+
+    .history {
+        width: 170px;
+        height: 32px;
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+}
